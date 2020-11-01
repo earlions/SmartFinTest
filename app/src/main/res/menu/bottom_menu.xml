@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottombaritem_calls"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="Все"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/bottombaritem_recents"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="Беларусь"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="false"
+    android:layout_centerHorizontal="false"
+    android:layout_centerVertical="false"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:editable="false"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:layout_centerInParent="true"
+        app:columnCount="3">
+
+        <Button
+            android:id="@+id/click1"
+            android:onClick="onClick"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/click2"
+            android:layout_marginLeft="5dp"
+            android:onClick="onClick"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/click3"
+            android:layout_marginLeft="5dp"
+            android:onClick="onClick"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/click4"
+            android:onClick="onClick"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/click5"
+            android:layout_marginLeft="5dp"
+            android:onClick="onClick"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/click6"
+            android:layout_marginLeft="5dp"
+            android:onClick="onClick"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/click7"
+            android:onClick="onClick"
+
+            android:text="7" />
+
+        <Button
+            android:id="@+id/click8"
+            android:layout_marginLeft="5dp"
+            android:onClick="onClick"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/click9"
+            android:layout_marginLeft="5dp"
+            android:onClick="onClick"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/clickZ"
+            android:onClick="onClick"
+            android:text="," />
+
+        <Button
+            android:id="@+id/click0"
+            android:layout_marginLeft="5dp"
+            android:onClick="onClick"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/clickX"
+            android:layout_marginLeft="5dp"
+            android:onClick="onClick"
+            android:text="X" />
+    </androidx.gridlayout.widget.GridLayout>
+
+</RelativeLayout>
